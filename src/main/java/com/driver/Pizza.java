@@ -49,6 +49,7 @@ public class Pizza {
     }
 
     public String getBill() {
+        // Append the Total Price only once
         this.bill += "\nTotal Price: " + this.price;
         return this.bill;
     }
